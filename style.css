@@ -1,0 +1,257 @@
+.bg-upper {
+  background: linear-gradient(rgba(171, 47, 82, 0.82) 0%, #ffaf53 100%),
+    url("images/bg1.jpg");
+}
+.bg-lower {
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/bg1.jpg");
+}
+
+.purp-color {
+  color: #ab1a51;
+}
+.bg-purp {
+  background-color: #ab1a51;
+}
+.section-padding {
+  padding: 100px 0px;
+}
+.banner-btn {
+  background: #ab2f52;
+  padding: 12px 45px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-title {
+  padding-bottom: 80px;
+}
+.section-title p {
+  width: 60%;
+  margin: 15px auto 20px;
+}
+p {
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+}
+.col-md-6 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-title-line {
+  background: #ececec;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: calc(50% - 87px);
+  width: 175px;
+}
+.section-title h3 {
+  color: #ab2f52;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 22px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.sub-title-paragraph h4 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 26px;
+  color: #151515;
+  line-height: 1.2;
+}
+.sub-title-paragraph h5 {
+  color: #ffaf53;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sub-title-paragraph p {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+}
+.anchor-btn {
+  background: #ffaf53;
+  padding: 10px 20px;
+  color: #ffffff !important;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+span,
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.bg-grey {
+  background-color: #fafafa;
+}
+.col-md-12 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.service-box {
+  padding: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 35px 0px rgb(148 146 245 / 15%);
+}
+.icon-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0px;
+  position: relative;
+  padding-bottom: 14px;
+}
+.icon-text p {
+  line-height: 25px;
+  font-weight: 300;
+}
+.service-box .icon i {
+  font-size: 40px;
+  color: #ffaf53;
+}
+.portfolio .filtering {
+  border-radius: 28px;
+  margin: 0 auto;
+  border: 1px dotted #e1e1e1;
+  width: 80%;
+}
+.portfolio .filtering button {
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  font-weight: 400;
+  /* padding: 10px 15px; */
+  letter-spacing: 2px;
+   color: #777;
+  cursor: pointer;
+  background: none;
+  border: 0;
+ } 
+ textarea:focus, input:focus{
+  outline: none;
+}
+
+button {
+  overflow: visible;
+  font-family: inherit;
+}
+.portfolio .filtering .active {
+  background-color: #ab2f52;
+  color: #fff;
+  border-radius: 28px;
+  box-shadow: 0px 10px 30px -4px rgb(0 0 0 / 20%);
+}
+.info-box {
+  position: relative;
+  padding-bottom: 30px;
+}
+.info-box .icon {
+  display: inline-block;
+  width: 30px;
+}
+.info-box .icon i {
+  font-size: 20px;
+  color: #ab2f52;
+}
+.info-box .content {
+  display: inline-block;
+  margin-left: 10px;
+}
+.info-box .content h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid #1c1c1c;
+  border-radius: 0;
+  padding: 10px 10px 10px 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 80%;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.bttn {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  background: #ab2f52;
+  padding: 12px 45px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-top: 30px;
+  border: none;
+}
+.footer-copy {
+  background: #242424;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  padding: 7px 0px;
+}
+/* .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 80%;
+}
+navbar-toggler-icon  .icon{
+  color: white;
+}
+.negative-margin{
+  margin-top: -24px;
+}
+.icon-text h4:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #bcbcbc;
+  left: calc(50% - 30px);
+} 
+@media (max-width: 380px) {
+  .portfolio .filtering {
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: 80%;
+  }
+  .portfolio .filtering button {
+    position: relative;
+    top: -1px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+     color: #777;
+    cursor: pointer;
+    background: none;
+    border: 0;
+   } 
+}
